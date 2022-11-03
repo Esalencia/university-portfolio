@@ -1,0 +1,149 @@
+/*@font-face{
+    font-family: 'hilda';
+    src: url(fonts/ericsson-hilda-regular.woff2)
+  }*/
+  *{
+     /* padding: 0;*/
+     /* margin: 0;*/
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: blue;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red ;
+}
+    
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1{
+    font-size: 50px;
+     color: #212121;
+    margin-bottom: 2px;
+}
+
+span{
+color: orange;
+}
+
+.detail p{
+    color: whitesmoke;
+    line-height: 22px;
+}
+
+.detail a{
+    background: #f900fd;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;   
+}
+
+ 
+  /* -----------------------FORM STYLES------------- */
+  
+  /*.contact-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  .*/
+  label{
+    font-size: 15px;
+    /*padding: 6px 0px 0px 6px;
+    width: 50%;*/
+    background: #f900fd;
+    outline: none;
+    border: none;
+  }
+  input{
+    font-size: 15px;
+    /*padding: 6px 0px 0px 6px;
+    width: 50%;*/
+    background: white;
+    outline: none;
+    border: 3px solid orange;
+  }
+  textarea {
+    font-size: 15px;
+    padding: 6px 0px 0px 6px;
+    width: 25%;
+    background: white;
+    outline: none;
+    border: 3px solid orange;
+  }
+  button{
+    background: blue;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #f900fd;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+  }
+  .contact-info h2 {
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .container-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 25px;
+    max-width: 998px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .section1 i {
+    font-size: 40px;
+    color: blue;
+    padding: 10px;
+    opacity: 0.7;
+    padding: 10px;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 5px;
+  }
+  .section1 h5 {
+    margin-top: 10px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
